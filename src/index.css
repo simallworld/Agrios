@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  font-family: 'Manrope', sans-serif;
+}
+
+@theme {
+  /* Custom Colors */
+  --color-primary: #4baf47;
+  --color-secondary: #eec044;
+  --color-mist: #a5a49a;
+  --color-mist2: #878680;
+  --color-mist3: #1f1e17;
+  --color-lightmist: #f8f7f0;
+  --color-mehandi: #c5ce38;
+
+  /* Custom Fonts */
+  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'Covered By Your Grace', cursive;
+
+  /* Custom Spacing */
+  --spacing-128: 32rem;
+
+  /* Custom Breakpoints */
+  --breakpoint-3xl: 120rem;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
