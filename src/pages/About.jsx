@@ -8,7 +8,7 @@ import Section4 from '../components/UI/About/Section4'
 const About = () => {
   return (
     <div className=''>
-      <BreadcrumbHeader heading="About" />
+      <BreadcrumbHeader heading="About" url="About" />
       <Section1 />
       <Section2 />
       <Section3 />

@@ -1,16 +1,7 @@
-export const categories = [
-  { name: 'Quality Standards', slug: 'quality-standards' },
-  { name: 'Agricutural Products', slug: 'agriculture-products' },
-  { name: 'Fresh Vegetables', slug: 'fresh-vegetables' },
-  { name: 'Organic Farming', slug: 'organic-farming' },
-  { name: 'Organic Products', slug: 'organic-products' },
-  { name: 'Dairy Products', slug: 'dairy-products' },
-  { name: 'Harvest', slug: 'harvest' },
-];
-
 export const categoryData = {
   'quality-standards': {
     title: 'Quality Standards',
+    slug: 'quality-standards',
     description:
       'We are committed to delivering agricultural products that meet the highest quality and safety standards. Our quality assurance process includes rigorous testing, farm inspections, and compliance with industry regulations to ensure premium-grade produce for consumers and businesses.',
     moreDescription:
@@ -29,6 +20,7 @@ export const categoryData = {
 
   'agriculture-products': {
     title: 'Agricultural Products',
+    slug: 'agriculture-products',
     description:
       'We provide premium quality agricultural products sourced directly from trusted farms. Our products ensure freshness, nutrition, and sustainability for consumers and businesses.',
     moreDescription:
@@ -43,6 +35,7 @@ export const categoryData = {
 
   'fresh-vegetables': {
     title: 'Fresh Vegetables',
+    slug: 'fresh-vegetables',
     description:
       'Our fresh vegetables are harvested daily and delivered quickly to preserve their natural taste, texture, and nutritional value.',
     moreDescription:
@@ -60,6 +53,7 @@ export const categoryData = {
 
   'organic-farming': {
     title: 'Organic Farming',
+    slug: 'organic-farming',
     description:
       'Our organic farming practices focus on natural cultivation methods without synthetic fertilizers or harmful chemicals.',
     moreDescription:
@@ -77,6 +71,7 @@ export const categoryData = {
 
   'organic-products': {
     title: 'Organic Products',
+    slug: 'organic-products',
     description:
       'We offer a wide range of certified organic products grown using natural methods that ensure purity and nutritional value.',
     moreDescription:
@@ -91,6 +86,7 @@ export const categoryData = {
 
   'dairy-products': {
     title: 'Dairy Products',
+    slug: 'dairy-products',
     description:
       'Our dairy products are sourced from healthy livestock and processed under strict quality standards to ensure freshness and safety.',
     moreDescription:
@@ -104,6 +100,7 @@ export const categoryData = {
 
   harvest: {
     title: 'Harvest Services',
+    slug: 'harvest',
     description:
       'Our harvest solutions help farmers maximize crop yield through efficient harvesting techniques and modern agricultural equipment.',
     moreDescription:

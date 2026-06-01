@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { categoryData } from '../data/CategoryData';
-import { categories } from '../data/CategoryData';
+import BreadcrumbHeader from '../components/UI/BreadcrumbHeader';
 
 const ServiceCategory = () => {
 
@@ -13,18 +13,20 @@ const ServiceCategory = () => {
 
     const { id } = useParams();
     const currentCategory = categoryData[id];
+
     return (
         <div className="">
+            <BreadcrumbHeader heading={currentCategory.title} url={currentCategory.slug} />
             <div className="flex gap-5 my-10 max-w-220 mx-auto">
 
                 {/* Category */}
                 <aside className="flex flex-col gap-5 w-60 text-left ">
                     <div className="p-5 bg-lightmist rounded-md">
                         <h4 className="font-bold">Categories</h4>
-                        <p className="mt-3">{categories.map((cat, index) => (
+                        <p className="mt-3">{Object.values(categoryData).map((cat, index) => (
                             <p className="text-mist2 text-xs mt-2 hover:text-primary" key={index}>
                                 <Link to={`/services/category/${cat.slug}`}>
-                                    {cat.name}
+                                    {cat.title}
                                 </Link>
                             </p>
                         ))}</p>

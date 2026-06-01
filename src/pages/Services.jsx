@@ -7,7 +7,7 @@ import Section3 from '../components/UI/Service/Section3'
 const Services = () => {
   return (
     <div>
-      <BreadcrumbHeader heading="Services" />
+      <BreadcrumbHeader heading="Services" url="Services" />
       <Section1 />
       <Section2 />
       <Section3 />
