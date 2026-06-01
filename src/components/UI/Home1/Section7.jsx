@@ -7,7 +7,7 @@ const Section7 = () => {
         <div>
             <div className="max-w-240 mx-auto flex items-start justify-between gap-5 text-center py-16">
                 <div className="w-[60%]">
-                    <img src="/src/assets/sec7Images/img1.png" alt="Section 7 Image" className="w-full h-auto" />
+                    <img src="/src/assets/Home1Assets/sec7Images/img1.png" alt="Section 7 Image" className="w-full h-auto" />
                 </div>
                 <div className="w-[40%] flex flex-col text-left shrink-0">
                     <h5 className="font-heading text-xl text-secondary">Our Farm Benefits</h5>

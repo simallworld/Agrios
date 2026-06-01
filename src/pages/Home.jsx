@@ -1,12 +1,12 @@
 import React from 'react'
-import HeroSection from '../components/UI/HeroSection'
-import Section2 from '../components/UI/Section2'
-import Section3 from '../components/UI/Section3'
-import Section4 from '../components/UI/Section4'
-import Section5 from '../components/UI/Section5'
-import Section6 from '../components/UI/Section6'
-import Section7 from '../components/UI/Section7'
-import Section8 from '../components/UI/Section8'
+import HeroSection from '../components/UI/Home1/HeroSection'
+import Section2 from '../components/UI/Home1/Section2'
+import Section3 from '../components/UI/Home1/Section3'
+import Section4 from '../components/UI/Home1/Section4'
+import Section5 from '../components/UI/Home1/Section5'
+import Section6 from '../components/UI/Home1/Section6'
+import Section7 from '../components/UI/Home1/Section7'
+import Section8 from '../components/UI/Home1/Section8'
 
 const Home = () => {
   return (

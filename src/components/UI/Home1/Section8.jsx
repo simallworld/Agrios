@@ -6,7 +6,7 @@ const Section8 = () => {
     const blogPosts = [
         {
             id: 1,
-            image: "/src/assets/sec8Images/img1.png",
+            image: "/src/assets/Home1Assets/sec8Images/img1.png",
             date: "05 July 2022",
             author: "Kevin Martin",
             comments: "1 Comment",
@@ -14,7 +14,7 @@ const Section8 = () => {
         },
         {
             id: 2,
-            image: "/src/assets/sec8Images/img2.png",
+            image: "/src/assets/Home1Assets/sec8Images/img2.png",
             date: "05 July 2022",
             author: "Kevin Martin",
             comments: "0 Comment",
@@ -22,7 +22,7 @@ const Section8 = () => {
         },
         {
             id: 3,
-            image: "/src/assets/sec8Images/img3.png",
+            image: "/src/assets/Home1Assets/sec8Images/img3.png",
             date: "05 July 2022",
             author: "Kevin Martin",
             comments: "0 Comment",

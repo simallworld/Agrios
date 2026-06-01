@@ -53,6 +53,7 @@ const Header = () => {
           <NavLink to="/services" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>Services <BiChevronDown /></NavLink>
           <NavLink to="/projects" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>Projects <BiChevronDown /></NavLink>
           <NavLink to="/news" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>News <BiChevronDown /></NavLink>
+          <NavLink to="/blog" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>Blog <BiChevronDown /></NavLink>
           <NavLink to="/shop" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>Shop <BiChevronDown /></NavLink>
           <NavLink to="/contact" className={({ isActive }) => `hover:text-black flex gap-1 items-center ${isActive ? "text-primary font-bold" : "text-mist font-semibold"}`}>Contact</NavLink>
         </div>

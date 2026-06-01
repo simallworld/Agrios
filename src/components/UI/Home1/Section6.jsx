@@ -2,7 +2,7 @@ import { ChevronUpIcon } from "@animateicons/react/lucide";
 import { FaStar } from "react-icons/fa";
 import { MdVerified } from "react-icons/md";
 import { Link } from "react-router-dom";
-import testimonials from "../../data/TestimonialData";
+import testimonials from "../../../data/TestimonialData";
 import { useState } from "react";
 
 const Section6 = () => {
